@@ -1,0 +1,30 @@
+.text1 {
+  font-family: 'Open Sans', "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.text2 {
+  font-family: 'Open Sans', "Arial", sans-serif;
+  font-family: 'Playpen Sans', cursive;
+  text-decoration: line-through;
+}
+
+.text3 {
+  font-family: 'Open Sans', "Arial", sans-serif;
+  font-family: 'Playpen Sans', cursive;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.text4 {
+  text-decoration: overline wavy;
+  word-spacing: 30px;
+  /* text-shadow: 10 10 5 #139100; */
+  text-shadow: 1px 1px 1px #1976f9;
+}
+
+.text5 {
+  text-decoration: underline double;
+  letter-spacing: 5px
+}
