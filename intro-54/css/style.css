@@ -1,0 +1,33 @@
+body {
+  background: #060000;
+  height: 300vh;
+
+}
+
+p {
+  font-size: 40px;
+  color: #e7e6e6;
+}
+
+.block {
+  max-width: 50%;
+  min-height: 100px;
+  background-color: white;
+  border-radius: 15px;
+  position: fixed;
+  left: 50%;
+  bottom: 100px;
+  right: 50px;
+  
+}
+
+
+.block__cercle {
+  background: red;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 100px;
+  bottom: 50px;
+}
