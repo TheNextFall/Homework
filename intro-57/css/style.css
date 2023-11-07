@@ -1,0 +1,40 @@
+body {
+  background: #464444;
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+}
+
+
+.text {
+  position: relative;
+  top: 50px;
+  font-size: 100px;
+  color: #fffdfd;
+
+}
+
+
+.text::before,
+.text::after {
+  content: '';
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 5px solid white;
+  transform: translate(0px,0px);
+}
+
+.text::before {
+  background: red;
+  left: -150px;
+}
+
+
+.text::after {
+  background: blue;
+  right: -150px;
+}
